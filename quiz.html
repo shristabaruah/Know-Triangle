@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>fun with triangles</h1>
+        <nav>
+          <a href="../pages/IsTriangle.html">Is Triangle?</a>
+          <a href="/">Quiz</a>
+          <a href="../pages/hypotenuse.html">Hypotenuse</a>
+          <a href="../pages/area.html">Area of Triangle</a>
+        </nav>
+      </header>
+      <main class="quiz-main">
+        <h1>Triangle Quiz</h1>
+        <form action="" class="quiz-form">
+            <div class="question-container">
+                <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+                <label class="input-label"><input class="input-radio" type="radio" name="question1"value="45">45</label>
+    
+                <label class="input-label"><input  class="input-radio" type="radio" name="question1"value="60">60</label>
+    
+                <label class="input-label" ><input class="input-radio" type="radio" name="question1" value="90">90</label>
+    
+            </div>
+            <div class="question-container">
+                <p>Which of the following triangles are always similar?</p>
+                <label class="input-label"><input class="input-radio" type="radio" name="question2" value="Equilateral">Equilateral Triangle</label>
+    
+                <label class="input-label" ><input class="input-radio" type="radio" name="question2" value="Isosceles">Isosceles Triangle</label>
+            </div>
+            
+    
+        </form>
+        <button class="btn-check" type="submit" id="submit-ans-btn"> SUBMIT</button>
+        <div class="output" id="output"></div>
+      </main>
+   
+    <script src="./scripts/quiz.js"></script>
+</body>
+</html>
