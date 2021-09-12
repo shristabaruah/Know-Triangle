@@ -13,6 +13,6 @@ function calculateScore(){
         }
         index = index + 1;
     }
-    OutputEl.innerText= "Your score is: " + score;
+   OutputEl.innerText= "Your score is: " + score;
 }
 SubmitButton.addEventListener("click",calculateScore);
