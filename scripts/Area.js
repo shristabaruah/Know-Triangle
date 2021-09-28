@@ -1,4 +1,4 @@
-const base = document.querySelectorAll("#input");
+const input = document.querySelectorAll("#input");
 const button = document.querySelector("#btn");
 const Output = document.querySelector("#output");
 
